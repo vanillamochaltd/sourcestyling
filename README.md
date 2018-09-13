@@ -24,11 +24,13 @@ elsewhere.
 #### variables
 
 `int quantity      = 0;`
+
 `int coffeeCounter = 4;`
 
 #### constants
 
 `const int  DAYS = 7;`
+
 `const bool IN_ARRAY = false;`
 
 ### complex
@@ -36,10 +38,12 @@ elsewhere.
 #### variables
 
 `Cookie vanilla;`
+
 `Cookie chocolateChip;`
 
 #### constants
 
 `const Cookie PEANUT;`
+
 `const Cookie SNICKER_DOODLE;`
 
