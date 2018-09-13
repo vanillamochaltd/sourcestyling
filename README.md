@@ -47,4 +47,20 @@ elsewhere.
 
 `const Cookie SNICKER_DOODLE;`
 
+## Functions and Methods
+
+### General Functions and Methods
+
+`camelCase`
+
+`void brew()`
+
+`int add(int, int)`
+
+### Namespace and Class Static Functions and Methods
+
+`Capitalized`
+
+`int NumberOfInstances()`
+
 
