@@ -50,7 +50,7 @@ Cookie vanillacookie;
 // Constants
 const Cookie VANILLA_WAFER;
 const Cookie VANILLAWAFER;
-const Cookie SNICKERDOOLE_COOKIE;
+const Cookie SNICKERDOODLE_COOKIE;
 ```
 
 ### Class Datamembers
