@@ -3,64 +3,93 @@ Various source styling standards
 
 # c++
 
-This section defined the coding style for c++ code used in the repository.
+This section defines the source style for c++ code used in the repository.
 The style will be complete once all of the basic c++ structures are defined.
 
-## Primitive and complex data types
+## Primitive and Complex data types
 
-Primitives should be obvious. The data types below would be implemented
+Primitives should be obvious. The complex datatypes included below would be implemented
 elsewhere.
 
 ### Variables
 
-`camelCase`
+```c
+snake_case
+// or
+snakecase
+```
 
-### constants
+### Constants
 
-`UPPER_CASE_SNAKE_CASE`
+```c
+UPPER_CASE_SNAKE_CASE
+// or
+SNAKECASE
+```
+### Primitive datatypes
 
-### Primitive
+```c
+// Variables
+int shoe_count;
+int shoecount;
 
-#### Variables
+// Constants
+int SHOE_BOX_VOLUME;
+int SHOEBOX_VOLUME;
+int SHOEBOXES;
+```
 
-`int quantity      = 0;`
+### Complex datatypes
 
-`int coffeeCounter = 4;`
+```c
+// Variables
+Cookie peanut_butter_cookie;
+Cookie peanutbuttercookie;
+Cookie vanillacookie;
 
-#### Constants
+// Constants
+Cookie VANILLA_WAFER;
+Cookie VANILLAWAFER;
+Cookie SNICKERDOOLE_COOKIE;
+```
 
-`const int  DAYS = 7;`
+### Class datamembers
 
-`const bool IN_ARRAY = false;`
+```c
+class Cookie{
 
-### Complex
+...
 
-#### Variables
+private:
 
-`Cookie vanilla;`
+  ...
 
-`Cookie chocolateChip;`
+  // Primtives
+  bool isround_;
+  bool is_round_;
+  
+  // Complex
+  Ingredient flour_;
+  Ingredient egg_;
+  
+  ...
+  
+ public:
+ 
+  ...
+ 
+  // Primitive
+  unsigned int flavorrating_;
+  unsigned int flavor_rating_;
+  
+  // Complex
+  Shape shape_;
+  
+  ...
+ 
+};
 
-#### Constants
+```
 
-`const Cookie PEANUT;`
-
-`const Cookie SNICKER_DOODLE;`
-
-## Functions and Methods
-
-### General Functions and Methods
-
-`camelCase`
-
-`void brew()`
-
-`int add(int, int)`
-
-### Namespace and Class Static Functions and Methods
-
-`Capitalized`
-
-`int NumberOfInstances()`
 
 
