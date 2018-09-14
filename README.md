@@ -34,9 +34,9 @@ int shoe_count;
 int shoecount;
 
 // Constants
-int SHOE_BOX_VOLUME;
-int SHOEBOX_VOLUME;
-int SHOEBOXES;
+const int SHOE_BOX_VOLUME;
+const int SHOEBOX_VOLUME;
+const int SHOEBOXES;
 ```
 
 ### Complex Datatypes
@@ -48,12 +48,14 @@ Cookie peanutbuttercookie;
 Cookie vanillacookie;
 
 // Constants
-Cookie VANILLA_WAFER;
-Cookie VANILLAWAFER;
-Cookie SNICKERDOOLE_COOKIE;
+const Cookie VANILLA_WAFER;
+const Cookie VANILLAWAFER;
+const Cookie SNICKERDOOLE_COOKIE;
 ```
 
 ### Class Datamembers
+Class Datamembers will follow the specifed guidelines for Primitive and Complex Datatypes as variable and constants.
+Additionally, each identifier will terminate with an underscore `_` as to not clash with accessor methods.
 
 ```cpp
 class Cookie{
