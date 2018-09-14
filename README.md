@@ -93,7 +93,7 @@ private:
 
 ## Procedure, Function, and Method Identifiers
 These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
-Currently, there are no name distinctions for the specified codeblock variants previously specified in this section.
+Currently, there are no name distinctions for the codeblock variants previously specified in this section.
 
 ```cpp
 
