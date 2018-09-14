@@ -6,10 +6,10 @@ Various source styling standards
 This section defines the source style for c++ code used in the repository.
 The style will be complete once all of the basic c++ structures are defined.
 
-## Primitive and Complex Datatypes
+## Primitive and Complex Datatype Identifiers
 
 Primitives should be obvious. The complex datatypes included below would be implemented
-elsewhere.
+elsewhere. Unless there is a certain distinction (See Class Datamembers), the guidelines set by this document will apply to each datatype in Namespace, Class, and Function scopes.
 
 ### Variables
 
@@ -89,6 +89,35 @@ private:
  
 };
 
+```
+
+## Procedure, Function, and Method Identifiers
+These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
+Currently, there are no name distinctions for the specified codeblock variants previously specified in this section.
+
+```c
+
+// Examples for Function and Procedures (Typically defined within a namespace)
+
+namespace Library{
+
+  // ...
+
+  // Program, Library, or API Function
+  uint32_t AddNumbers(uint32_t, uint32_t);
+  bool IsOddNumber(int32_t);
+  static uint32_t TotalAdditions();
+  
+  // ...
+
+  // Program, Library, or API Procedure
+  void PrintNumber(uint32_t);
+  void CleanUp();
+  static void IncrementInstances();
+  
+  // ...
+  
+};
 ```
 
 
