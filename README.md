@@ -13,7 +13,7 @@ elsewhere. Unless there is a certain distinction (See Class Datamembers), the gu
 
 ### Variables
 
-```c
+```cpp
 snake_case
 // or
 snakecase
@@ -21,14 +21,14 @@ snakecase
 
 ### Constants
 
-```c
+```cpp
 UPPER_CASE_SNAKE_CASE
 // or
 SNAKECASE
 ```
 ### Primitive Datatypes
 
-```c
+```cpp
 // Variables
 int shoe_count;
 int shoecount;
@@ -41,7 +41,7 @@ int SHOEBOXES;
 
 ### Complex Datatypes
 
-```c
+```cpp
 // Variables
 Cookie peanut_butter_cookie;
 Cookie peanutbuttercookie;
@@ -55,14 +55,14 @@ Cookie SNICKERDOOLE_COOKIE;
 
 ### Class Datamembers
 
-```c
+```cpp
 class Cookie{
 
-...
+//...
 
 private:
 
-  ...
+  //...
 
   // Primitives
   bool isround_;
@@ -72,11 +72,11 @@ private:
   Ingredient flour_;
   Ingredient egg_;
   
-  ...
+  //...
   
  public:
  
-  ...
+  //...
  
   // Primitive
   unsigned int flavorrating_;
@@ -85,7 +85,7 @@ private:
   // Complex
   Shape shape_;
   
-  ...
+  //...
  
 };
 
@@ -95,7 +95,7 @@ private:
 These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
 Currently, there are no name distinctions for the specified codeblock variants previously specified in this section.
 
-```c
+```cpp
 
 // Examples for Function and Procedures (Typically defined within a namespace)
 
