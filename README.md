@@ -24,7 +24,7 @@ snakecase
 ```cpp
 UPPER_CASE_SNAKE_CASE
 // or
-SNAKECASE
+UPPERCASE_SNAKECASE
 ```
 ### Primitive Datatypes
 
