@@ -6,7 +6,7 @@ Various source styling standards
 This section defines the source style for c++ code used in the repository.
 The style will be complete once all of the basic c++ structures are defined.
 
-## Primitive and Complex data types
+## Primitive and Complex Datatypes
 
 Primitives should be obvious. The complex datatypes included below would be implemented
 elsewhere.
@@ -26,7 +26,7 @@ UPPER_CASE_SNAKE_CASE
 // or
 SNAKECASE
 ```
-### Primitive datatypes
+### Primitive Datatypes
 
 ```c
 // Variables
@@ -39,7 +39,7 @@ int SHOEBOX_VOLUME;
 int SHOEBOXES;
 ```
 
-### Complex datatypes
+### Complex Datatypes
 
 ```c
 // Variables
@@ -53,7 +53,7 @@ Cookie VANILLAWAFER;
 Cookie SNICKERDOOLE_COOKIE;
 ```
 
-### Class datamembers
+### Class Datamembers
 
 ```c
 class Cookie{
@@ -64,7 +64,7 @@ private:
 
   ...
 
-  // Primtives
+  // Primitives
   bool isround_;
   bool is_round_;
   
