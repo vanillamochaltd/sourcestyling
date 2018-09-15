@@ -60,11 +60,7 @@ Additionally, each identifier will terminate with an underscore `_` as to not cl
 ```cpp
 class Cookie{
 
-//...
-
 private:
-
-  //...
 
   // Primitives
   bool isround_;
@@ -73,12 +69,8 @@ private:
   // Complex
   Ingredient flour_;
   Ingredient egg_;
-  
-  //...
-  
+
  public:
- 
-  //...
  
   // Primitive
   unsigned int flavorrating_;
@@ -86,11 +78,8 @@ private:
   
   // Complex
   Shape shape_;
-  
-  //...
  
 };
-
 ```
 
 ## Codeblock and Scope Identifiers
