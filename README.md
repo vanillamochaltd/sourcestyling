@@ -177,10 +177,13 @@ public:
 
 ## Comments
 Comments are required to be included in every file, as well as preceding codeblocks that establish their own scope; e.g. Namespaces, Functions and Procedures, and classes.
+Commentblocks should be topped off with a border, using a character that conforms with previous comments, as wide as the longest line.
+The following examples will use the `-` character.
 
 ### Comments for arbritrary files
 This guideline follows header(.hpp) and implementation(.cpp) files;
 ```cpp
+// ------------------------------------------
 // @file: filename.xpp
 // @author: Jimmy McCoy, Susie Anderson, ...
 // @description: Declaration of amazing code.
@@ -189,6 +192,7 @@ This guideline follows header(.hpp) and implementation(.cpp) files;
 ### Comments for Functions, Procedures, and Methods
 Function;
 ```cpp
+// --------------------------------------------------------------------------------------
 // @author: Ron Weasley
 // @function: BakeCookies
 // @parameters: CookieSheet
@@ -200,6 +204,7 @@ uint32_t BakeCookies(CookieSheet const& cookie_sheet) const{
 ```
 Procedure;
 ```cpp
+// --------------------------------------------
 // @author: Anton Chigurh
 // @procedure: PackageCookies
 // @parameters: none
@@ -210,6 +215,7 @@ void PackageCookies(){
 ```
 Method as a Function;
 ```cpp
+// -----------------------------------------------------------------------------
 // @author: Rick Deckard
 // @class: Baker
 // @function: TakeOrder
@@ -222,6 +228,7 @@ uint32_t TakeOrder(Customer const& customer){
 ```
 Method as a Procedure
 ```cpp
+// -------------------------------------------------------
 // @author: Winston Smith
 // @class: Baker
 // @procedure: CleanUp
