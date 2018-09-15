@@ -93,65 +93,74 @@ private:
 
 ```
 
-## Procedure, Function, and Method Identifiers
-These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
-Currently, there are no name distinctions for the codeblock variants previously specified in this section.
+## Codeblock and Scope Identifiers
+These guidelines apply to codeblocks that normally require identifiers such as, Namespaces, Functions, Procedures, and Classes.
+The purpose for the style are to make a distinction of datatype, function, and procedures' origin belonging to each scope.
+The trend will continue for nested scopes.
 
-### Namespace Function and Procedure Identifiers
+### Namespace Identifiers
+Namespace identifiers, like Class, Function, and Procedure Identifiers, will be capitalized.
+
+```cpp
+namespace Library{
+
+// Code goes here
+
+};
+```
+
+### Class Identifiers
+Class Identifiers will be Capitalized
+
+```cpp
+class Cookie{
+
+// Code goes here
+
+};
+```
+
+### Procedure, Function, and Method Identifiers
+These guidelines are for Namespace and Class procedure, function, and methods that are inline, static, or out-of-line.
+Currently, there are no name distinctions between the codeblock variants previously specified in this section, since the purpose
+is to identify a codeblock's scope.
+
+#### Namespace Function and Procedure Identifiers
 ```cpp
 
 // Examples for Function and Procedures (Typically defined within a namespace)
-
 namespace Library{
-
-  // ...
 
   // Program, Library, or API Function
   uint32_t AddNumbers(uint32_t, uint32_t);
   bool IsOddNumber(int32_t);
   static uint32_t TotalAdditions();
-  
-  // ...
 
   // Program, Library, or API Procedure
   void PrintNumber(uint32_t);
   void CleanUp();
   static void IncrementInstances();
-  
-  // ...
-  
+   
 };
 ```
 
-### Class Method and Procedure Identifiers
+#### Class Method and Procedure Identifiers
 
 ```cpp
 class Cookie{
 
-  // ...
 private:
 
-  //...
-  
   // Private Method Examples
   bool FinishedBaking();
   static uint32_t BatchCount();
 
-  //...
-
 public:
-
-  // ...
   
   // Public Method Examples
   Shape const& Shape() const;
   bool IsRound() const;
   void Bake();
-
-  // ...
-
+  
 };
-
 ```
-
-
