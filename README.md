@@ -191,9 +191,9 @@ Function;
 ```cpp
 // @author: Ron Weasley
 // @function: BakeCookies
-// @return: Amount of Baked Cookies
 // @parameters: CookieSheet
-// @description: Bake the cookies in the sheet, and report the number of successful bakes
+// @return: Amount of Baked Cookies
+// @description: Bake the cookies in the sheet, and report the amount of successful bakes
 uint32_t BakeCookies(CookieSheet const& cookie_sheet) const{
 ...
 }
@@ -205,6 +205,29 @@ Procedure;
 // @parameters: none
 // @decription: Stores the cookies after baking
 void PackageCookies(){
+...
+}
+```
+Method as a Function;
+```cpp
+// @author: Rick Deckard
+// @class: Baker
+// @function: TakeOrder
+// @parameters: Customer
+// @return: Total Orders
+// @description: Takes the customer order, and report the amount of total orders
+uint32_t TakeOrder(Customer const& customer){
+...
+}
+```
+Method as a Procedure
+```cpp
+// @author: Winston Smith
+// @class: Baker
+// @procedure: CleanUp
+// @parameters: DirtyList
+// @description: Clean up based on items on the dirty list
+void CleanUp(DirtyList& dirtylist){
 ...
 }
 ```
