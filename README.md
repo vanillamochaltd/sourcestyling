@@ -222,7 +222,7 @@ Method as a Function;
 // @parameters: Customer
 // @return: Total Orders
 // @description: Takes the customer order, and report the amount of total orders
-uint32_t TakeOrder(Customer const& customer){
+uint32_t Baker::TakeOrder(Customer const& customer){
 ...
 }
 ```
@@ -234,7 +234,7 @@ Method as a Procedure
 // @procedure: CleanUp
 // @parameters: DirtyList
 // @description: Clean up based on items on the dirty list
-void CleanUp(DirtyList& dirtylist){
+void Baker::CleanUp(DirtyList& dirtylist){
 ...
 }
 ```
