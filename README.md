@@ -161,6 +161,6 @@ Comments are required to be included in every file, as well as preceding codeblo
 This guideline follows header(.hpp) and implementation(.cpp) files.
 ```cpp
 // @file: filename.xpp
-// @author: Jimmy McCoy, Susie Daisychain, ...
+// @author: Jimmy McCoy, Susie Anderson, ...
 // @description: Declaration of amazing code.
 ```
