@@ -186,6 +186,7 @@ This guideline follows header(.hpp) and implementation(.cpp) files;
 // @description: Declaration of amazing code.
 ```
 
+### Comments for Functions, Procedures, and Methods
 Function;
 ```cpp
 // @author: Ron Weasley
@@ -197,7 +198,6 @@ uint32_t BakeCookies(CookieSheet const& cookie_sheet) const{
 ...
 }
 ```
-
 Procedure;
 ```cpp
 // @author: Anton Chigurh
