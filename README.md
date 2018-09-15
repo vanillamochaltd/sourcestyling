@@ -6,6 +6,27 @@ Various source styling standards
 This section defines the source style for c++ code used in the repository.
 The style will be complete once all of the basic c++ structures are defined.
 
+## General Guidelines
+
+### Scrapped 
+At the time of writing, this guideline will scrap the following,
+
+#### 'Global' Variables, Constants, Functions and Procedures
+```cpp
+...
+#include <iostream>
+
+// As forward declarations, but not limited to
+uint32_t AddNumbers(uint32_t, uint32_t);
+uint32_t supercounter = 0;
+
+int main(){
+  // Some groundbreaking code here
+}
+```
+
+As a rule of thumb, datatypes and codeblocks that should have their own identifiers, and should be declared within a specific scope.
+
 ## Primitive and Complex Datatype Identifiers
 
 Primitives should be obvious. The complex datatypes included below would be implemented
@@ -158,9 +179,32 @@ public:
 Comments are required to be included in every file, as well as preceding codeblocks that establish their own scope; e.g. Namespaces, Functions and Procedures, and classes.
 
 ### Comments for arbritrary files
-This guideline follows header(.hpp) and implementation(.cpp) files.
+This guideline follows header(.hpp) and implementation(.cpp) files;
 ```cpp
 // @file: filename.xpp
 // @author: Jimmy McCoy, Susie Anderson, ...
 // @description: Declaration of amazing code.
+```
+
+Function;
+```cpp
+// @author: Ron Weasley
+// @function: BakeCookies
+// @return: Amount of Baked Cookies
+// @parameters: CookieSheet
+// @description: Bake the cookies in the sheet, and report the number of successful bakes
+uint32_t BakeCookies(CookieSheet const& cookie_sheet) const{
+...
+}
+```
+
+Procedure;
+```cpp
+// @author: Anton Chigurh
+// @procedure: PackageCookies
+// @parameters: none
+// @decription: Stores the cookies after baking
+void PackageCookies(){
+...
+}
 ```
