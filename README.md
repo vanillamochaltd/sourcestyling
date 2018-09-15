@@ -97,7 +97,7 @@ private:
 These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
 Currently, there are no name distinctions for the codeblock variants previously specified in this section.
 
-### Namespace, Function, and Procedure Identifiers
+### Namespace Function and Procedure Identifiers
 ```cpp
 
 // Examples for Function and Procedures (Typically defined within a namespace)
