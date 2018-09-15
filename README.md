@@ -233,7 +233,7 @@ Method as a Procedure
 // @class: Baker
 // @procedure: CleanUp
 // @parameters: DirtyList
-// @description: Clean up based on items on the dirty list
+// @description: Clean up based on items within the dirty list
 void Baker::CleanUp(DirtyList& dirtylist){
 ...
 }
