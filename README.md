@@ -153,3 +153,14 @@ public:
   
 };
 ```
+
+## Comments
+Comments are required to be included in every file, as well as preceding codeblocks that establish their own scope; e.g. Namespaces, Functions and Procedures, and classes.
+
+### Comments for arbritrary files
+This guideline follows header(.hpp) and implementation(.cpp) files.
+```cpp
+// @file: filename.xpp
+// @author: Jimmy McCoy, Susie Daisychain, ...
+// @description: Declaration of amazing code.
+```
