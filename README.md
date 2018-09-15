@@ -97,6 +97,7 @@ private:
 These guidelines are for program and class procedure, function, and methods that are inline, static, or out-of-line.
 Currently, there are no name distinctions for the codeblock variants previously specified in this section.
 
+### Namespace, Function, and Procedure Identifiers
 ```cpp
 
 // Examples for Function and Procedures (Typically defined within a namespace)
@@ -122,5 +123,35 @@ namespace Library{
 };
 ```
 
+### Class Method and Procedure Identifiers
+
+```cpp
+class Cookie{
+
+  // ...
+private:
+
+  //...
+  
+  // Private Method Examples
+  bool FinishedBaking();
+  static uint32_t BatchCount();
+
+  //...
+
+public:
+
+  // ...
+  
+  // Public Method Examples
+  Shape const& Shape() const;
+  bool IsRound() const;
+  void Bake();
+
+  // ...
+
+};
+
+```
 
 
