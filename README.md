@@ -238,3 +238,16 @@ void Baker::CleanUp(DirtyList& dirtylist){
 ...
 }
 ```
+
+### Namespace comments
+Namespace will follow a similar style. 
+
+```cpp
+// @author: Hugo Stiglitz
+// @namespace: Bakery Library
+// @description: Bakery program scope
+namespace Bakey{
+...
+};
+
+```
