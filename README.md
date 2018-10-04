@@ -243,6 +243,7 @@ void Baker::CleanUp(DirtyList& dirtylist){
 Namespace will follow a similar style. 
 
 ```cpp
+// ----------------------------------
 // @author: Hugo Stiglitz
 // @namespace: Bakery Library
 // @description: Bakery program scope
