@@ -8,9 +8,6 @@ The style will be complete once all of the basic c++ structures are defined.
 
 ## General Guidelines
 
-### Scrapped 
-At the time of writing, this guideline will scrap the following,
-
 #### 'Global' Variables, Constants, Functions and Procedures
 ```cpp
 ...
